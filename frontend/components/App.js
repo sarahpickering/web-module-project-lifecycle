@@ -81,8 +81,8 @@ export default class App extends React.Component {
             <Form
               onTodoFormSubmit={this.onTodoFormSubmit}
               onTodoNameInputChange={this.onTodoNameInputChange}
+              toggleDisplayCompleteds={this.toggleDisplayCompleteds}
               todoNameInput={this.state.todoNameInput}
-              toggleDisplayCompleteds={this.state.toggleDisplayCompleteds}
               displayCompleteds={this.state.displayCompleteds}
             />
 
